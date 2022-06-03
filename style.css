@@ -1,0 +1,134 @@
+﻿html{
+    margin:5px;
+  }
+  
+  body{
+    margin: 0;
+    width: 100%;
+    background-color:rgb(45, 87, 123);
+    color: rgb(0, 0, 0);
+    font-family: 'Habibi', serif;
+    
+  }
+  
+  h2, h1, h3, h4{
+    margin:10px;
+    font-family: 'Hammersmith One', sans-serif;
+  }
+  
+  .logo{
+      margin: 5px;
+  }
+  h1 {
+      text-align: center;
+  }
+  .naslov2{
+      text-align:center;
+      font-weight: bold;
+  }
+  .box{
+      width: 40%;
+      padding: 5px;
+      border: 1px solid gray;
+      margin: 10px;
+    }
+  
+  header{
+    background-color: rgba(230, 230, 230, 0.918);
+  }
+  .box2{
+      margin: -350px 0px 0px 50%;
+  }
+  
+  .box3{
+      margin: -300px 0px 0px 60%;
+  }
+  
+  .table{
+      background-color: rgb(48, 48, 48);
+      color: rgb(255, 251, 251);
+      margin: 10px;
+     
+  }
+  
+  .label{
+    width:20%;
+    padding: 5px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: white;
+    height: 250px;
+  }
+  
+  footer{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(230, 230, 230, 0.918);
+  font-weight: bold;
+  text-align: center;
+  padding: 50px;
+  margin: 0 auto -50px -50px;
+  font-size: 20px;
+  }
+  
+  .ispod{
+    height: 350px;
+    width: 45%;
+    margin: 0 auto;
+  }
+  
+  nav ul
+      {
+          list-style-type:none;
+          margin:0;
+          padding:0;
+          width:100%;
+      }
+      nav li
+      {
+          float:left;
+          width:20%;
+      }
+      nav a:link, nav a:visited
+      {
+          height:30px;
+          line-height:200%;
+          display:block;
+          font-weight:bold;
+          color:#FFFFFF;
+          background-color:#00a31b;
+          text-align:center;
+          text-decoration:none;
+          text-transform:uppercase;
+          padding-top:10px;
+          padding-bottom:10px;
+          margin-right:2px;
+      }
+      nav a:hover, nav a:active
+      {
+          background-color:#c0c0c0;
+      }
+      nav a.aktivno
+      {
+          background-color:#c20101;
+      }
+      @media (min-width: 500px) and (max-width: 700px) {
+          nav li 
+              {
+                  width:50%;
+                  margin-bottom:2px;
+              }
+  
+      }
+      @media (max-width: 500px) {
+      nav li 
+          {
+              clear:both;
+              width:100%;
+              margin-bottom:2px;
+              }
+    }
+    
+    nav{margin-bottom: 80px;}
+  
+  
+  

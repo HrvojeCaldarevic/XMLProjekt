@@ -1,0 +1,198 @@
+﻿
+body{
+    margin: auto;
+    width: 100%;
+    background-image: url(images/820194.jpg);
+    color: rgb(0, 0, 0);
+    font-family: 'Habibi', serif;
+    font-size: 15px;}
+
+header p{
+    color:white;
+    text-align: right;
+}
+
+h3 {
+    color: rgb(16, 72, 121);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+header{
+    background-color: rgba(58, 59, 63, 0.918);
+  }
+
+main {
+    position: relative;
+    max-width: 960px;
+    margin: 0 auto;
+    width: 90%;
+    height: 1430px;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 15px;
+   
+}
+
+article {
+    background-color: white;
+    width: 60%;
+    position: absolute;
+    height: 890px;
+    top: 50px;
+    border: 1px solid rgb(13, 101, 177);
+}
+
+.image {
+    width: 93%;
+    padding: 10px;
+    position: absolute;
+    top:250px;
+    margin:0 auto;
+}
+
+
+.drugi{
+    position:absolute;
+    width:100%;
+}
+.text {
+    padding: 10px;
+}
+
+
+aside {
+    background-color: white;
+    height: 450px;
+    width: 37.5%;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    border: 1px solid rgb(13, 101, 177);
+}
+
+
+
+label {
+    background-image: url("slike/icon.jpg")
+}
+
+
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(58, 59, 63, 0.918);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto -50px -50px;
+    font-size: 20px;
+    }
+
+
+.ispod{
+    position: absolute;
+    top:530px;
+    left: 600px;
+    height: 410px;
+    width: 37.5%;
+    background-color: white;
+    border: 1px solid rgb(13, 101, 177);
+}
+
+iframe{
+    width: 99%;
+    height: 99%;
+}
+
+.zastava{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 150px;
+    width: 150px;
+
+}
+
+.logo{
+    margin: 5px;
+}
+
+hr{
+    border-width: 1px;
+    width:15%;
+    border-color: rgb(13, 101, 177);
+}
+
+aside hr{
+    border-width: 1px;
+    width:50%;
+    border-color: rgb(13, 101, 177);
+}
+
+.youtube{
+    position: absolute;
+    top: 960px;
+    width: 972px;
+    height: 450px;
+    
+}
+
+nav ul
+	{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		width:100%;
+	}
+	nav li
+	{
+		float:left;
+		width:50%;
+	}
+	nav a:link, nav a:visited
+	{
+		height:30px;
+		line-height:200%;
+		display:block;
+		font-weight:bold;
+		color:#000000;
+		background-color:#e7e9e7;
+		text-align:center;
+		text-decoration:none;
+		text-transform:uppercase;
+		padding-top:10px;
+		padding-bottom:10px;
+		margin-right:2px;
+	}
+	nav a:hover, nav a:active
+	{
+		background-color:#c0c0c0;
+	}
+	@media (min-width: 500px) and (max-width: 700px) {
+		nav li 
+			{
+				width:100%;
+				margin-bottom:2px;
+			}
+
+	}
+	@media (max-width: 500px) {
+	nav li 
+		{
+			clear:both;
+			width:100%;
+			margin-bottom:2px;
+			}
+  }
+  
+  nav{margin-bottom: 80px;}
+
+  h1{text-align: center;}
